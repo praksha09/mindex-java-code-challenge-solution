@@ -1,3 +1,4 @@
+###IMPLEMENTATION
 The following endpoints are added to existing codebase:
 * READ  - ReportingStructure
     * HTTP Method: GET
