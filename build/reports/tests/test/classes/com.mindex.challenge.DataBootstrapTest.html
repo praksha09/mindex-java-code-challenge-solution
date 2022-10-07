@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.mindex.challenge.DataBootstrapTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.mindex.challenge.DataBootstrapTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mindex.challenge.html">com.mindex.challenge</a> &gt; DataBootstrapTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.655s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">compensationDataTest</td>
+<td class="success">0.655s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>22:19:55.001 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.mindex.challenge.DataBootstrapTest]
+22:19:55.015 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+22:19:55.030 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+22:19:55.088 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.mindex.challenge.DataBootstrapTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+22:19:55.122 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mindex.challenge.DataBootstrapTest], using SpringBootContextLoader
+22:19:55.128 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mindex.challenge.DataBootstrapTest]: class path resource [com/mindex/challenge/DataBootstrapTest-context.xml] does not exist
+22:19:55.129 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mindex.challenge.DataBootstrapTest]: class path resource [com/mindex/challenge/DataBootstrapTestContext.groovy] does not exist
+22:19:55.129 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.mindex.challenge.DataBootstrapTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:19:55.131 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mindex.challenge.DataBootstrapTest]: DataBootstrapTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:19:55.226 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.mindex.challenge.DataBootstrapTest]
+22:19:55.406 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\praks\IdeaProjects\mindex-java-code-challenge (1)\mindex-java-code-challenge\build\classes\java\main\com\mindex\challenge\ChallengeApplication.class]
+22:19:55.411 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mindex.challenge.ChallengeApplication for test class com.mindex.challenge.DataBootstrapTest
+22:19:55.599 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.mindex.challenge.DataBootstrapTest]: using defaults.
+22:19:55.600 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22:19:55.627 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b22e4ac, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@14572c83, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f4d12b4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ef0dc41, org.springframework.test.context.support.DirtiesContextTestExecutionListener@228b44b7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@f155751, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@38fa3cb5, org.springframework.test.context.event.EventPublishingTestExecutionListener@60b0fd3f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@18e6a362, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3decc0f0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@541a4c6c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@33a40ad5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1ef44270]
+22:19:55.637 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mindex.challenge.DataBootstrapTest]
+22:19:55.638 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mindex.challenge.DataBootstrapTest]
+22:19:55.645 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mindex.challenge.DataBootstrapTest]
+22:19:55.645 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mindex.challenge.DataBootstrapTest]
+22:19:55.646 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mindex.challenge.DataBootstrapTest]
+22:19:55.646 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mindex.challenge.DataBootstrapTest]
+22:19:55.651 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@111ce605 testClass = DataBootstrapTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2ff1b6a0 testClass = DataBootstrapTest, locations = '{}', classes = '{class com.mindex.challenge.ChallengeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@29992913, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@23e6e99b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@d6567cc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@772e74a0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+22:19:55.655 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mindex.challenge.DataBootstrapTest]
+22:19:55.655 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mindex.challenge.DataBootstrapTest]
+22:19:55.700 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.0.RELEASE)
+
+2022-10-06 22:19:56.479  INFO 23192 --- [    Test worker] com.mindex.challenge.DataBootstrapTest   : Starting DataBootstrapTest on PranjalPC with PID 23192 (started by praks in C:\Users\praks\IdeaProjects\mindex-java-code-challenge (1)\mindex-java-code-challenge)
+2022-10-06 22:19:56.481 DEBUG 23192 --- [    Test worker] com.mindex.challenge.DataBootstrapTest   : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2022-10-06 22:19:56.481  INFO 23192 --- [    Test worker] com.mindex.challenge.DataBootstrapTest   : No active profile set, falling back to default profiles: default
+2022-10-06 22:19:57.278  INFO 23192 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-10-06 22:19:57.383  INFO 23192 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 2 repository interfaces.
+2022-10-06 22:20:00.797  INFO 23192 --- [    Test worker] de.bwaldvogel.mongo.MongoServer          : started MongoServer(port: 55678, ssl: false)
+2022-10-06 22:20:01.039  INFO 23192 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:55678], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-10-06 22:20:01.172  INFO 23192 --- [-server-worker1] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0xb672af77, L:/127.0.0.1:55678 - R:/127.0.0.1:55679] connected
+2022-10-06 22:20:01.301  INFO 23192 --- [127.0.0.1:55678] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1}] to 127.0.0.1:55678
+2022-10-06 22:20:01.307  INFO 23192 --- [127.0.0.1:55678] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:55678, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2657000}
+2022-10-06 22:20:01.341  WARN 23192 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2022-10-06 22:20:01.342  WARN 23192 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2022-10-06 22:20:01.352  WARN 23192 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2022-10-06 22:20:01.353  WARN 23192 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2022-10-06 22:20:02.098  INFO 23192 --- [-server-worker2] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0xd530acc8, L:/127.0.0.1:55678 - R:/127.0.0.1:55680] connected
+2022-10-06 22:20:02.110  INFO 23192 --- [    Test worker] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2}] to 127.0.0.1:55678
+2022-10-06 22:20:02.155  INFO 23192 --- [-server-worker2] d.b.mongo.backend.AbstractMongoBackend   : created database test
+2022-10-06 22:20:02.172  INFO 23192 --- [-server-worker2] d.b.mongo.backend.AbstractMongoDatabase  : adding unique _id index for collection employee
+2022-10-06 22:20:02.179  INFO 23192 --- [-server-worker2] d.b.mongo.backend.AbstractMongoDatabase  : created collection test.employee
+2022-10-06 22:20:02.219  INFO 23192 --- [-server-worker2] d.b.mongo.backend.AbstractMongoDatabase  : adding unique _id index for collection compensation
+2022-10-06 22:20:02.219  INFO 23192 --- [-server-worker2] d.b.mongo.backend.AbstractMongoDatabase  : created collection test.compensation
+2022-10-06 22:20:02.965  INFO 23192 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-06 22:20:03.360  WARN 23192 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2022-10-06 22:20:03.361  WARN 23192 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2022-10-06 22:20:03.407  WARN 23192 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2022-10-06 22:20:03.407  WARN 23192 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2022-10-06 22:20:03.537  INFO 23192 --- [    Test worker] com.mindex.challenge.DataBootstrapTest   : Started DataBootstrapTest in 7.797 seconds (JVM running for 10.763)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at Oct 6, 2022, 10:20:04 PM</p>
+</div>
+</div>
+</body>
+</html>

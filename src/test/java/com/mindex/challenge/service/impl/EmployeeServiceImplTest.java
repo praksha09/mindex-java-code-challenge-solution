@@ -75,6 +75,7 @@ public class EmployeeServiceImplTest {
                         readEmployee.getEmployeeId()).getBody();
 
         assertEmployeeEquivalence(readEmployee, updatedEmployee);
+
     }
 
     private static void assertEmployeeEquivalence(Employee expected, Employee actual) {
